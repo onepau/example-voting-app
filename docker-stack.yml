@@ -22,7 +22,7 @@ services:
       placement:
         constraints: [node.role == manager]
   vote:
-    image: onepau/example-voting-
+    image: onepau/example-voting-app
     ports:
       - 5000:80
     networks:
